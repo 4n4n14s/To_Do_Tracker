@@ -43,7 +43,12 @@ namespace To_Do_Tracker
 
                 if (count > 0)
                 {
-                    MessageBox.Show("passou");
+                    var aplicativo  = new aplicacao();
+                    aplicativo.Show();
+                    this.Hide();
+
+
+                    
                 }
                 else
                 {
@@ -58,6 +63,14 @@ namespace To_Do_Tracker
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var menu = new Cadastro();
+            menu.Show();
+            this.Hide();
 
         }
     }

@@ -35,3 +35,5 @@ C:\Users\anani\OneDrive\Documentos\para o git\To_Do_Tracker\To_Do_Tracker\obj\De
 C:\Users\anani\OneDrive\Documentos\para o git\To_Do_Tracker\To_Do_Tracker\obj\Debug\To_Do_Tracker.csproj.CopyComplete
 C:\Users\anani\OneDrive\Documentos\para o git\To_Do_Tracker\To_Do_Tracker\obj\Debug\To_Do_Tracker.exe
 C:\Users\anani\OneDrive\Documentos\para o git\To_Do_Tracker\To_Do_Tracker\obj\Debug\To_Do_Tracker.pdb
+C:\Users\anani\OneDrive\Documentos\para o git\To_Do_Tracker\To_Do_Tracker\obj\Debug\To_Do_Tracker.Cadastro.resources
+C:\Users\anani\OneDrive\Documentos\para o git\To_Do_Tracker\To_Do_Tracker\obj\Debug\To_Do_Tracker.aplicacao.resources

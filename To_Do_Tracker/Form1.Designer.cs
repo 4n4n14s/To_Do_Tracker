@@ -68,6 +68,7 @@
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(70, 183);
             this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(211, 20);
             this.textBoxPassword.TabIndex = 3;
             // 
@@ -98,6 +99,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "CADASTRAR";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
