@@ -44,9 +44,9 @@ namespace To_Do_Tracker
             try
             {
 
-                
 
-                string userName = textBox1.Text;
+                string userName = textBox4.Text;
+                string userLogin = textBox1.Text;
                 string userPassword = textBox2.Text;
                 string confirmPassword = textBox3.Text;
 
@@ -59,7 +59,7 @@ namespace To_Do_Tracker
                 }
                 else
                 {
-                    string query = "INSERT INTO user_login (usuario, senha) VALUES(@username, @userPassword)";
+                    string query = "INSERT INTO user_login (usuario, senha, nome_usuario) VALUES(@userLogin, @userPassword, @userName)";
                     string connectionString = "server=LocalHost;database=to_do_tracker;uid=root;pwd=root";
                     using (MySqlConnection connection = new MySqlConnection(connectionString))
                     {
@@ -67,8 +67,9 @@ namespace To_Do_Tracker
 
                         using (MySqlCommand command = new MySqlCommand(query, connection))
                         {
-                            command.Parameters.AddWithValue("@userName", userName);
+                            command.Parameters.AddWithValue("@userLogin", userLogin);
                             command.Parameters.AddWithValue("@userPassword", userPassword);
+                            command.Parameters.AddWithValue("@userName", userName);
 
                             command.ExecuteNonQuery();
                         }

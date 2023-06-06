@@ -36,11 +36,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4Login = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(45, 225);
+            this.button1.Location = new System.Drawing.Point(45, 263);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -50,7 +52,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(145, 225);
+            this.button2.Location = new System.Drawing.Point(142, 263);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -61,7 +63,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 37);
+            this.label1.Location = new System.Drawing.Point(42, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 13);
             this.label1.TabIndex = 2;
@@ -70,7 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 88);
+            this.label2.Location = new System.Drawing.Point(42, 159);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 3;
@@ -80,7 +82,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(45, 138);
+            this.label3.Location = new System.Drawing.Point(42, 198);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 13);
             this.label3.TabIndex = 4;
@@ -88,7 +90,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(45, 53);
+            this.textBox1.Location = new System.Drawing.Point(45, 136);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(175, 20);
             this.textBox1.TabIndex = 5;
@@ -96,7 +98,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(45, 104);
+            this.textBox2.Location = new System.Drawing.Point(45, 175);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(175, 20);
@@ -104,17 +106,35 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(45, 154);
+            this.textBox3.Location = new System.Drawing.Point(45, 214);
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
             this.textBox3.Size = new System.Drawing.Size(172, 20);
             this.textBox3.TabIndex = 7;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(42, 97);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(175, 20);
+            this.textBox4.TabIndex = 8;
+            // 
+            // label4Login
+            // 
+            this.label4Login.AutoSize = true;
+            this.label4Login.Location = new System.Drawing.Point(47, 120);
+            this.label4Login.Name = "label4Login";
+            this.label4Login.Size = new System.Drawing.Size(33, 13);
+            this.label4Login.TabIndex = 9;
+            this.label4Login.Text = "Login";
             // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(291, 298);
+            this.Controls.Add(this.label4Login);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -141,5 +161,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label4Login;
     }
 }
